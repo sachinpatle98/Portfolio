@@ -32,26 +32,26 @@ const Contact = () => {
     setLoading(true);
 
 
-    // Emailjs.com  id:-rishitembhurne12@gmail.com psaa:-Rustam@123
-    // SERVICE_ID :- service_jeqfar7
-    // TEMPLATE_ID :- template_ro7ixwp
+    // Emailjs.com  id:-patlep098@gmail.com psaa:-Patle@1998
+    // SERVICE_ID :- service_wuro87o
+    // TEMPLATE_ID :- template_5rbi5vl
     // PUBLIC_KEY :- yX1g15jdy4PrKccNj
 
     emailjs
       .send(
         // SERVICE_ID ;
-        'service_jeqfar7',
-        'template_ro7ixwp',
+        'service_wuro87o',
+        'template_5rbi5vl',
 
         {
           from_name: form.name,
-          to_name: "Rustam",
+          to_name: "Purushottam",
           from_email: form.email,
-          to_email: "rishitembhurne12@gmail.com",
+          to_email: "patlep098@gmail.com",
           message: form.message,
         },
         // PUBLIC_KEY
-        'yX1g15jdy4PrKccNj'
+        'v2mjqI3naLMFNz_EN'
       )
       .then(
         () => {

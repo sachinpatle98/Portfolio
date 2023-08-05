@@ -1,8 +1,12 @@
-import logo from "./logo.svg";
+import logoP from "./logoP.jpeg";
 import backend from "./backend.png";
+import front from "./front.jpeg";
+import zrow from "./zrow.jpg";
+import pro from "./pro.png";
+import rcil from "./rcil.jpg";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
-import web from "./web.png";
+import web from "./web.jpeg";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -21,18 +25,18 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
+import crypto from "./crypto.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import bio from "./bio.png";
 
 export {
-  logo,
+  zrow,
+  pro,
+  rcil,
+  logoP,
   backend,
+  front,
   creator,
   mobile,
   web,
@@ -52,11 +56,8 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
+  crypto,
   jobit,
   tripguide,
+  bio
 };

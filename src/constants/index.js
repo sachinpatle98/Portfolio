@@ -1,10 +1,13 @@
 import {
   mobile,
+  zrow,
+  pro,
+  rcil,
   backend,
+  front,
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -15,13 +18,10 @@ import {
   git,
   figma,
   docker,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
+  crypto,
   jobit,
-  tripguide,
   threejs,
+  bio,
 } from "../assets";
 
 
@@ -53,7 +53,7 @@ const services = [
   },
   {
     title: "Front End Developer",
-    icon: backend,
+    icon: front,
   },
   {
     title: "Content Creator",
@@ -74,10 +74,6 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
   {
     name: "React JS",
     icon: reactjs,
@@ -118,41 +114,51 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Web Development Learning Program",
-    company_name: "Newton School",
-    icon: backend,
+    title: "Associate Software Engineer",
+    company_name: "Prolincur Technologies",
+    icon: pro,
     iconBg: "#383E56",
-    date: "April 2022 - March 2023",
+    date: "May 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining 3D web applications using Three.js and React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
     title: "React Developer",
+    company_name: "Zrow Solution",
+    icon: zrow,
+    iconBg: "#E6DEDD",
+    date: "March 2023 - May 2023",
+    points: [
+      "Worked on live Project that is Growth91 which is basically a financial category based website.",
+      "Deal data gets from a client in the excel sheet form then we created User Interface (UI) based on data provided by the client. Also Develop cross-browser compatible components, features and UI for web based apps.",
+      "Write, audit and improves test coverage Profile and improve front-end performance and security, debug and fix UI and functional related issues",
+    ],
+  },
+  {
+    title: "Web Developer Intern",
     company_name: "Newton School",
     icon: backend,
-    iconBg: "#E6DEDD",
-    date: "April 2022 - Feb 2023",
+    iconBg: "#383E56",
+    date: "Apr 2022 - March 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer Learning Programr",
-    company_name: "Newton School",
-    icon: backend,
+    title: "Network Engineer",
+    company_name: "RailTel Corporation Of India",
+    icon: rcil,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Apr 2021 - Apr 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Execution & maintenance of OFC work / Maintenance of Battery Bank/Switch ring upgradation/installation of network elements, routers, Switches/ Configuration of Switches, routers, STM etc.",
+      "Troubleshooting of MPLS network, station Wi-fi, network devices and other operational issues.",
+      "Work on IP based Video Surveillance System project of Nagpur Division Central Railway and South-East Central Railway.",
     ],
   },
 ];
@@ -186,30 +192,30 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Text Edior",
+    name: "CryptoMedia",
     description:
-      "An online text editor is a web-based application that allows users to create, edit, and manipulate text-based content directly within a web browser without the need for installing additional software on their computer. The some key features of online text editors is :- 1) Web-Based 2) User-Friendly Interface... ",
+      "A React-based Crypto Currencies tracker, with ranking and coin information. Designed using Material UI. Libraries used: Context API, react-router, Chart.js The some key features of CryptoMedia is :- 1) Web-Based 2) Graphs and Charts for easy understanding 3) Real-time data",
     tags: [
       {
         name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "Javascript",
+        name: "Chart JS",
         color: "green-text-gradient",
       },
       {
-        name: "Bootstrap",
+        name: "Material UI",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: crypto,
+    source_code_link: "https://crypto-tracker-12.vercel.app/",
   },
   {
-    name: "My Entertainment",
+    name: "Digital Street App",
     description:
-      "An online movies app is a web or mobile application that allows users to stream and watch movies directly on their devices. These apps provide a convenient and accessible way to access a vast library of movies, TV shows, and other video content. This project is implement some functionality and user responsive website.",
+      "The website is based on getting a movies and TV-series with their name, rating and release date. Search option provide you separate list of movies and TV-series and also pagination provide better experience to user.",
     tags: [
       {
         name: "React",
@@ -225,15 +231,15 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://gentle-duckanoo-2dcff8.netlify.app/",
   },
   {
-    name: "GPT-3",
+    name: "BioVegan-E-commerce website",
     description:
-      "A GPT-3 user-responsive app is an application that incorporates the GPT-3 language model developed by OpenAI to create a dynamic and interactive user experience. The some key features of a GPT-3 user-responsive app: 1) Conversational Interface 2) Dynamic Responses.",
+      "The primary goal of an e-commerce site is to sell goods and services online. This project deals with developing an E-commerce website for selling organic vegetables and fruits.It provides the user with a catalog of different category available for purchase in the store.",
     tags: [
       {
-        name: "React",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
@@ -241,36 +247,13 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Bootstrap, Material UI",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: bio,
+    source_code_link: "https://spectacular-eclair-436bdc.netlify.app/",
   },
-
-  //# Add hear more project's
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A GPT-3 user-responsive app is an application that incorporates the GPT-3 language model developed by OpenAI to create a dynamic and interactive user experience. The some key features of a GPT-3 user-responsive app: 1) Conversational Interface 2) Dynamic Responses.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

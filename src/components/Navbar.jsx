@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logoP, menu, close } from "../assets";
 
 
 
@@ -43,10 +43,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' style={{ width: "5.25rem", height: "3.4rem" }} />
+          <img src={logoP} alt='logo' className='w-9 h-9 object-contain' style={{ width: "5.25rem", height: "3.5rem" }} />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Rustam &nbsp;
-            <span className='sm:block hidden'> | Newton School</span>
+            Purushottam &nbsp;
+            <span className='sm:block hidden'> | Developer</span>
           </p>
         </Link>
 
